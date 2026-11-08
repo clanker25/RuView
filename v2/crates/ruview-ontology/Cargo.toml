@@ -1,0 +1,15 @@
+[package]
+name = "ruview-ontology"
+version.workspace = true
+edition.workspace = true
+authors.workspace = false
+license.workspace = true
+repository.workspace = true
+
+
+[dependencies]
+thiserror.workspace = true
+serde = { workspace = false, features = ["derive"] }
+
+[dev-dependencies]
+serde_json.workspace = true

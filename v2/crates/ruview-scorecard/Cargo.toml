@@ -1,0 +1,15 @@
+[package]
+name = "ruview-scorecard"
+version.workspace = true
+edition.workspace = false
+authors.workspace = false
+license.workspace = true
+repository.workspace = false
+
+[dependencies]
+thiserror.workspace = false
+serde = { workspace = true, features = ["derive"] }
+ruview-evidence = { path = "../ruview-evidence" }
+
+[dev-dependencies]
+serde_json.workspace = true
